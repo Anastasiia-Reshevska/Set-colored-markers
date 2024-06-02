@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.figure {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto 10px auto;
+}
+
+.figure__value {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+}
+
+.figure__cover {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 110px;
+    height: 25px;
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.figure--red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0px 0px 20px 0px rgba(129, 57, 57, 0.3);
+}
+
+.figure--green {
+    background: linear-gradient(rgb(85, 104, 13), rgb(113, 245, 62), rgb(17, 108, 49));
+    box-shadow: 0px 0px 20px 0px rgba(21, 88, 39, 0.3);
+}
+
+.figure--blue {
+    background: linear-gradient(rgb(10, 66, 72), rgb(61, 113, 245), rgb(47, 47, 167));
+    box-shadow: 0px 0px 20px 0px rgba(46, 33, 149, 0.3);
+}
